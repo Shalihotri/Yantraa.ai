@@ -2,7 +2,7 @@
 
 <img src="logo/yantraa-transparent.png" alt="Yantraa logo" width="120" />
 
-# Yantraa Evidence
+# Yantraa
 
 **Your returns agent checks every record before it decides. Most of those checks don't change the answer.**
 
