@@ -1,4 +1,5 @@
 import { useEffect, useState, type ReactNode } from "react";
+import { BrandMark } from "./BrandMark";
 import { live, REPO } from "./data";
 import { Demo } from "./sections/Demo";
 import { Findings } from "./sections/Findings";
@@ -58,8 +59,9 @@ export function App() {
     <>
       <a className="skip" href="#question">Skip to content</a>
       <nav className="nav" aria-label="Site">
-        <a className="wordmark" href="#top"><span className="mark" aria-hidden>✳</span>Yantraa Evidence</a>
+        <a className="wordmark" href="#top"><BrandMark />Yantraa Evidence</a>
         <div className="nav-links">
+          <a href="./">Yantraa home ↗</a>
           <a href="#demo">Demo</a><a href="#findings">Findings</a><a href="#how">Method</a><a href="#fit">Use cases</a>
           <a className="nav-cta" href={REPO} target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
@@ -115,7 +117,7 @@ export function App() {
 
       <footer className="footer">
         <div>
-          <span className="wordmark small"><span className="mark" aria-hidden>✳</span>Yantraa Evidence</span>
+          <span className="wordmark small"><BrandMark />Yantraa Evidence</span>
           <p>Open source under Apache-2.0. Every request on this page is synthetic. Live results: {live.n_cases} requests,
             {" "}{live.model}, {live.date}. Penalties are illustrative.</p>
         </div>

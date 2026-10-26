@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo/yantraa-transparent.png" alt="Yantraa logo" width="120" />
+
 # Yantraa Evidence
 
 **Your returns agent checks every record before it decides. Most of those checks don't change the answer.**
@@ -11,6 +13,10 @@ paired confidence intervals, on your cost assumptions, in one command.
 ![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Runs offline](https://img.shields.io/badge/runs-offline-success)
 ![No UI lock-in](https://img.shields.io/badge/UI-bring%20your%20own-lightgrey)
+
+**[Yantraa website →](https://shalihotri.github.io/Yantraa/)** Explore the vision for industry-specific agentic workflows.
+**[Evidence lab →](https://shalihotri.github.io/Yantraa/evidence.html)** See a decision graph fill in check by check,
+and compare strategies on cost and accuracy. [Vercel deployment instructions](showcase/README.md#deploy-to-vercel).
 
 </div>
 

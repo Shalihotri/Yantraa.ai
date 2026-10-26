@@ -1,0 +1,15 @@
+.brand-mark {
+  display: block;
+  width: 48px;
+  height: auto;
+  aspect-ratio: 508 / 494;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+.wordmark .brand-mark {
+  width: 40px;
+}
+.wordmark.small .brand-mark {
+  width: 34px;
+}

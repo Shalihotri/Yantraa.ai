@@ -5,5 +5,8 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [react()],
   base: "./",
-  build: { chunkSizeWarningLimit: 900 }, // the demo data is bundled on purpose
+  build: {
+    chunkSizeWarningLimit: 900,
+    rollupOptions: { input: { main: "index.html", evidence: "evidence.html" } },
+  },
 });
